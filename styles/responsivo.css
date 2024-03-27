@@ -1,0 +1,102 @@
+@media (max-width: 1024px) {
+    .cabecalho {
+        justify-content: center;
+        flex-direction: column;
+        padding: 3.1rem 0;
+        gap: 2rem;
+        height: 11rem;
+    }
+
+    .cabecalho__menu li a{
+        padding: 1rem;
+    }
+
+    .home__informacoes{
+        padding: 1.8rem;
+    }
+
+    .home__informacoes img{
+        max-width: 6.25rem;
+    }
+
+    .home__informacoes__titulo{
+        font-size: 2.5rem;
+    }
+
+    .comprar__cartao{
+        width: 70%;
+    }
+
+    .melhorias{
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .comprar{
+        padding: 1.8rem;
+    }
+
+    .comprar__cartao{
+        padding: 5rem 1.25rem;
+        width: 100%;
+    }
+
+    .melhorias{
+        width: 100%;
+    }
+
+    .comprar__informacoes__plataformas{
+        flex-direction: column;
+    }
+
+    .comprar__botao__plataformas{
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+
+    .home__informacoes__botao{
+        width: 50%;
+    }
+
+    .rodape{
+        height: 30rem;
+    }
+
+    .rodape__links__link{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodape__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 485px) {
+    main::after{
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4) 100%, transparent 65%);
+    }
+    
+    .comprar__botao__plataformas li img{
+        max-width: 100%; 
+    }
+
+    .imagem__cartao {
+        max-width: 80%;
+    }
+
+    .rodape{
+        height: 32rem;
+    }
+
+    .rodape__links{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
